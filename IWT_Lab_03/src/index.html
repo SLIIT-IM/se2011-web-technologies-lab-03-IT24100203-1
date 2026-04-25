@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Tech Store</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <img src="images/logo.png" width="120" class="logo">
+        <h1>Campus Tech Store</h1>
+        <p>Your student-friendly place for tech essentials</p>
+
+        <button id="themeBtn">Toggle Dark Mode</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#offers">Student Offers</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home">
+            <h2>Welcome to Campus Tech Store</h2>
+
+            <p style="color: darkgreen; font-weight: bold;">
+                We provide useful and affordable tech products for students.
+            </p>
+
+            <img src="images/logo.png" width="120" class="logo">
+
+            <button id="welcomeBtn">Click for Welcome Message</button>
+            <p id="welcomeMessage"></p>
+        </section>
+
+        <!-- PRODUCTS -->
+        <section id="products">
+            <h2>Our Products</h2>
+
+            <table class="product-table" id="productTable">
+                <tr>
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>For studies and coding</td>
+                    <td>Rs. 185000</td>
+                </tr>
+                <tr>
+                    <td>Headphones</td>
+                    <td>For music and meetings</td>
+                    <td>Rs. 8500</td>
+                </tr>
+                <tr>
+                    <td>Smart Watch</td>
+                    <td>Fitness and notifications</td>
+                    <td>Rs. 12000</td>
+                </tr>
+                <tr>
+                    <td>USB Flash Drive</td>
+                    <td>Store files easily</td>
+                    <td>Rs. 2500</td>
+                </tr>
+            </table>
+
+            <p><strong>Total Products:</strong> <span id="productCount"></span></p>
+
+            <input type="number" id="priceInput" placeholder="Enter price">
+            <button id="discountBtn">Calculate Discount</button>
+            <p id="discountResult"></p>
+
+            <input type="text" id="searchInput" placeholder="Search product">
+            <button id="searchBtn">Search</button>
+            <p id="searchResult"></p>
+
+            <button id="showProductsBtn">Show All Products</button>
+            <ul id="productListDisplay"></ul>
+        </section>
+
+        <!-- OFFERS -->
+        <section id="offers">
+            <h2>Student Offers</h2>
+            <ol>
+                <li>10% discount</li>
+                <li>Free delivery</li>
+                <li>Free accessories</li>
+            </ol>
+
+            <button id="offersBtn">Show Offer</button>
+            <p id="offersMessage"></p>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a student project website.</p>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="fullname" placeholder="Full Name"><br>
+                <input type="email" id="email" placeholder="Email"><br>
+                <input type="text" id="phone" placeholder="Phone"><br>
+                <textarea id="message" placeholder="Message"></textarea><br>
+
+                <input type="submit" value="Send">
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Campus Tech Store</p>
+        <p id="clock"></p>
+    </footer>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

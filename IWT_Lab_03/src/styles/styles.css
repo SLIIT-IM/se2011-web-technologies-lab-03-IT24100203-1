@@ -1,0 +1,108 @@
+body {
+    font-family: Arial;
+    background: #f4f6f8;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background: #e8f1fb;
+    padding: 20px;
+}
+
+nav {
+    background: #1d4d7a;
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+section {
+    padding: 20px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th {
+    background: #1d4d7a;
+    color: white;
+}
+
+.product-table td, th {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background: #1d4d7a;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+}
+
+button:hover {
+    background: #163a5b;
+}
+
+ /*TASK A*/
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode .container {
+    background: #1e1e1e;
+}
+
+.dark-mode header,
+.dark-mode #offers,
+.dark-mode .contact-form {
+    background-color: #2b2b2b;
+    color: #f1f1f1;
+}
+
+.dark-mode nav {
+    background-color: #000000;
+}
+
+.dark-mode .product-table th {
+    background-color: #333333;
+}
+
+.dark-mode .product-table td,
+.dark-mode .product-table tr {
+    color: #f1f1f1;
+}
+
+.dark-mode a {
+    color: #8ec8ff;
+}
